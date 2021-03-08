@@ -17,7 +17,7 @@ alsa-utils
 less
 psmisc
 openssh-client
-diff
+#diff
 bzip2
 info
 manpages-dev
