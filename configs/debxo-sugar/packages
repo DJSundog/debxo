@@ -5,10 +5,10 @@
 # are always installed.
 
 # the backend stuff
-firmware-libertas/squeeze-backports
-olpc-xo1-hw/squeeze-backports
-linux-image-486/squeeze-backports
-olpc-kbdshim/squeeze-backports
+firmware-libertas
+olpc-xo1-hw
+#linux-image-486
+olpc-kbdshim
 wireless-tools
 alsa-utils
 console-tools
@@ -22,6 +22,12 @@ bzip2
 info
 manpages-dev
 rsync
+htop
+tmux
+vim
+wget
+curl
+git
 
 # X
 xserver-xephyr
@@ -29,8 +35,7 @@ xserver-xorg-core
 xserver-xorg-input-kbd
 xserver-xorg-input-synaptics
 xserver-xorg-input-evdev
-xserver-xorg-video-geode
-xserver-xorg-video-openchrome
+xserver-xorg-video-all
 xfonts-100dpi
 xfonts-scalable
 xfonts-base
@@ -43,15 +48,25 @@ aspell-en
 big-cursor
 ttf-liberation
 network-manager-gnome
-sucrose-0.88
-education-desktop-sugar
+sucrose
+#education-desktop-sugar
 #sugar-calculate-activity -- not yet ported to 0.88?
-sugar-pippy-activity
+#sugar-pippy-activity
 #sugar-write-activity-0.86  -- not yet in squeeze; needs to be unblocked
-sugar-chat-activity-0.86
-sugar-physics-activity
-sugar-connect-activity
-sugar-jigsawpuzzle-activity
-sugar-memorize-activity
-etoys
-etoys-doc
+#sugar-chat-activity-0.86
+#sugar-physics-activity
+#sugar-connect-activity
+#sugar-jigsawpuzzle-activity
+#sugar-memorize-activity
+#etoys
+#etoys-doc
+sugar-browse-activity
+sugar-calculate-activity
+sugar-terminal-activity
+sugar-etoys-activity
+sugar-icon-theme
+sugar-imageviewer-activity
+sugar-log-activity
+sugar-themes
+sugar-write-activity
+

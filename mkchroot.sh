@@ -151,6 +151,7 @@ customize_chroot_hook "$ROOT_DIR"
 
 # initialize apt
 printf "${LOCAL_APT_MIRROR}\n" >${ROOT_DIR}/etc/apt/sources.list
+(chroot ${ROOT_DIR} apt install -y aptitude)
 (chroot ${ROOT_DIR} aptitude update)
 
 # generic packages are always installed
