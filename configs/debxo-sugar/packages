@@ -46,7 +46,8 @@ nodm
 menu
 aspell-en
 big-cursor
-ttf-liberation
+#ttf-liberation
+fonts-liberation2
 network-manager-gnome
 sucrose
 #education-desktop-sugar
