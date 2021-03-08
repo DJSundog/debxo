@@ -11,7 +11,7 @@ olpc-xo1-hw
 olpc-kbdshim
 wireless-tools
 alsa-utils
-console-tools
+#console-tools
 
 # the silly i-always-use-this-shit stuff
 less
@@ -69,4 +69,5 @@ sugar-imageviewer-activity
 sugar-log-activity
 sugar-themes
 sugar-write-activity
+sugar-session
 
